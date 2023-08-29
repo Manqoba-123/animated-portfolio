@@ -12,9 +12,10 @@
     h1{
         color: #fff;
         margin: 0;
-        font-size: 20x;
+        font-size: 40px;
         font-family: 'Coolvetica';
         font-weight: 400;
+        white-space: nowrap;
 
         &::before{
             content: '<h1>';
@@ -40,7 +41,7 @@
         }
 
         img{
-            width: 25px;
+            width: 50px;
             margin-left: 10px;
             opacity: 0;
             height: auto;
@@ -77,5 +78,23 @@
             color: black;
             border-radius: 10px;
         }
+    }
+    .image{
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        align-items: stretch;
+       img{
+        width: 400px;
+        height: auto;
+        top: 0;
+        right: 0;
+        border-radius: 20px;
+        bottom: 0;
+
+        &:hover{
+            transform: scale(1.1);
+        }
+       }
     }
 }

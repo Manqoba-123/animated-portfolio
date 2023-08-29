@@ -1,5 +1,6 @@
 $primary-color: #ff564d;
 
+@import '~loaders.css/src/animations/pacman.scss';
 @import 'animate.css';
 
 //Fonts to be used
@@ -18,4 +19,18 @@ $primary-color: #ff564d;
 
 input,textarea{
   font-family: 'Helvetica Neue';
+}
+
+.loader-active{
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  height: 50px;
+  width: 50px;
+  animation: fadeOut 1s 0.5s;
+  animation-fill-mode: forwards;
 }
