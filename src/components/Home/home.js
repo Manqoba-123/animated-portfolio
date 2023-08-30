@@ -1,6 +1,6 @@
 import './home.scss'
 import LogoS from '../../assets/images/icons8-m-key-50.png';
-import Picture from '../../assets/images/IMG_20210514_165644.jpg'
+import LogoP from '../../assets/images/IMG_20210514_165644.jpg'
 import { Link } from 'react-router-dom';
 import Loader from 'react-loaders';
 
@@ -16,6 +16,8 @@ const Home = () => {
                 <h2>Fullstack Developer / Mathematician</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
+            <div className='picture'>
+            <img src={LogoP} alt='m' /></div>
         </div>
         <Loader type='pacman' />
        </>

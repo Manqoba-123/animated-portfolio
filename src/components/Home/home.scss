@@ -1,12 +1,14 @@
+
 .home-page{
 
     .text-zone{
         width: 40%;
         max-height: 90%;
         position: absolute;
-        left: 15%; // to be adjusted
+        left: 12%; // to be adjusted
         top: 50%;
         transform: translateY(-50%);
+
     }
 
     h1{
@@ -88,7 +90,7 @@
         width: 400px;
         height: auto;
         top: 0;
-        right: 0;
+        right: 2;
         border-radius: 20px;
         bottom: 0;
 
@@ -96,5 +98,23 @@
             transform: scale(1.1);
         }
        }
+    }
+    
+    .picture{
+        display: block;
+
+        img{
+            display: block;
+            margin: 80px 200px;
+            width: 400px;
+            height: auto;
+            float: right;
+            border-radius: 10px;
+
+            &:hover{
+                transform: scale(1.2);
+                border-radius: 0;
+            }
+        }
     }
 }
