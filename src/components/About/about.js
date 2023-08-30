@@ -13,12 +13,12 @@ const About = () => {
                     Applied Mathematics. Enthusiastic about Software Development.
                     A team player with a can-do attitude, curious by nature,
                     and enjoys learning new things.</p>
-                <p>I'm a very ambitious front-end developer looking for a role in an
+                <p>I'm a very ambitious fullstack developer looking for a role in an
             established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.</p>
+            technologies on challenging and diverse projects.Most of my previous work is in my github account, I have no working experience currently looking for entry level job</p>
             <p>If I need to define myself in one sentence that would be a family
-            person, a sports fanatic,
-          and tech-obsessed!!!</p>
+            person, a sports fanatic, gamer(online gaming)
+          and tech-obsessed.</p>
             </div>
             <div className='stage-cube-cont'>
                 <div className='cubespinner'>

@@ -1,5 +1,10 @@
-
+@import '../../_breakpoints.scss';
 .home-page{
+
+    @include mobile{
+        flex-direction: column;
+        align-items: center;
+    }
 
     .text-zone{
         width: 40%;
@@ -8,6 +13,9 @@
         left: 12%; // to be adjusted
         top: 50%;
         transform: translateY(-50%);
+        @include mobile{
+            left: 25%;
+        }
 
     }
 
@@ -18,6 +26,11 @@
         font-family: 'Coolvetica';
         font-weight: 400;
         white-space: nowrap;
+
+        @include mobile{
+            font-size: 20px;
+            font-weight: 300;
+        }
 
         &::before{
             content: '<h1>';
@@ -103,6 +116,14 @@
     .picture{
         display: block;
 
+        @include mobile{
+            margin: 80px 200px;
+            width: 200px;
+            height: auto;
+            float: right;
+            border-radius: 10px;
+        }
+
         img{
             display: block;
             margin: 80px 200px;
@@ -110,6 +131,13 @@
             height: auto;
             float: right;
             border-radius: 10px;
+
+            @include mobile{
+                margin: -80px -45px;
+                width: 150px;
+                height: auto;
+                border-radius: 10px;
+            }
 
             &:hover{
                 transform: scale(1.2);
